@@ -1,0 +1,68 @@
+@import url(./global.css);
+
+.hero {
+  width: 100vw;
+  height: 800px;
+}
+
+.hero-header {
+  width: 100vw;
+  height: 48px;
+
+  margin-top: 16px;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.hero-header-logo {
+  width: 89px;
+  height: 22px;
+
+  margin: 19px 0 7px 16px;
+}
+
+.hero-header-button {
+  width: 140px;
+  height: 48px;
+
+  margin-right: 16px;
+
+  color: var(--white);
+  background-color: var(--dark-blue);
+}
+
+.hero-article {
+  margin-top: 38px;
+  margin: 38px 0 0 16px;
+}
+
+.hero-article-p {
+  width: 343px;
+
+  margin-top: 26px;
+}
+
+.hero-article-button {
+  width: 167px;
+  height: 56px;
+
+  margin-top: 24px;
+
+  color: var(--white);
+  background-image: linear-gradient(#ff6f48, #f02aa6);
+}
+
+.hero-img {
+  width: 100vw;
+  max-width: 375px;
+
+  margin-top: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+}
