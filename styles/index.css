@@ -95,20 +95,31 @@
   height: 283px;
 
   margin-top: 16px;
+  margin-left: 28px;
 }
 
-/* .grid-card-icon {
+.grid-card-icon {
   position: absolute;
-} */
+}
 
 .grid-card {
   width: 343px;
   height: 259px;
+}
 
-  position: relative;
-  bottom: 0;
+.grid-card-heading {
+  margin-top: 80px;
+}
 
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+.grid-card-p {
+  width: 286px;
+
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
+.grid-card-link {
+  color: var(--dark-pink);
+  font-size: 18px;
+  font-weight: 700;
 }
