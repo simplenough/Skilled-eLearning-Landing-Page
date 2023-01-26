@@ -66,3 +66,49 @@
 
   overflow: hidden;
 }
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-heading {
+  width: 343px;
+  height: 120px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-image: linear-gradient(#ff6f48, #f02aa6);
+  border-radius: 10px;
+}
+
+.grid-heading-text {
+  width: 286px;
+}
+
+.grid-card-container {
+  width: 343px;
+  height: 283px;
+
+  margin-top: 16px;
+}
+
+/* .grid-card-icon {
+  position: absolute;
+} */
+
+.grid-card {
+  width: 343px;
+  height: 259px;
+
+  position: relative;
+  bottom: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
