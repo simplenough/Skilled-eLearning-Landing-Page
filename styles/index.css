@@ -101,7 +101,6 @@
 
 .grid-item-heading {
   width: 286px;
-  /* margin-left: 28px; */
 }
 
 .grid-item-icon {
@@ -152,6 +151,10 @@
   justify-content: space-between;
 
   background-color: var(--dark-blue);
+}
+
+.footer-logo {
+  margin-left: 16px;
 }
 
 .footer-button {
