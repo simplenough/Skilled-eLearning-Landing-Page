@@ -18,6 +18,10 @@
     flex-direction: row;
   }
 
+  .hero-article {
+    margin-left: 39px;
+  }
+
   .grid {
     height: 999px;
   }

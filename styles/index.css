@@ -28,7 +28,7 @@
 
 .hero {
   width: 100vw;
-  height: 800px;
+  /* height: 800px; */
 
   display: flex;
   flex-direction: column;
@@ -37,7 +37,7 @@
 }
 
 .hero-article {
-  margin: 38px 0 0 16px;
+  margin-top: 38px;
 }
 
 .hero-article-p {
