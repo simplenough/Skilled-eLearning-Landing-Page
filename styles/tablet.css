@@ -14,16 +14,28 @@
   }
 
   .hero {
-    height: 640px;
+    height: 569px;
     flex-direction: row;
   }
 
   .hero-article {
     margin-left: 39px;
+    margin-top: -50px;
+  }
+
+  .hero-img-container {
+    width: 500px;
+    height: 750px;
+
+    margin-top: -150px;
+
+    background-image: url(../assets/image-hero-tablet.png);
+
+    background-position: left top;
   }
 
   .grid {
-    height: 999px;
+    height: 960px;
   }
 
   .grid-container {
