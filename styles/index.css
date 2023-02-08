@@ -1,11 +1,16 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .header {
-  width: 100vw;
+  width: 98%;
   height: 48px;
 
   margin-top: 16px;
 
   display: flex;
-  align-items: flex-end;
   justify-content: space-between;
 }
 
@@ -28,7 +33,6 @@
 
 .hero {
   width: 100vw;
-  /* height: 800px; */
 
   display: flex;
   flex-direction: column;
@@ -80,6 +84,7 @@
 }
 
 .grid {
+  width: 100vw;
   height: 1690px;
   background-image: linear-gradient(#fff, #f0f1ff);
 }

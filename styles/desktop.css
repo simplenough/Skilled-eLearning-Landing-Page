@@ -1,0 +1,26 @@
+@import url(./index.css);
+@import url(./tablet.css);
+
+@media (min-width: 1440px) {
+  .header-logo {
+    margin-left: 0;
+  }
+
+  .header-button {
+    margin-right: 0;
+  }
+
+  .hero-article {
+    margin-left: 0;
+  }
+
+  .grid {
+    height: 750px;
+  }
+
+  .grid-container {
+    gap: 30px;
+
+    grid-template-columns: 350px 350px 350px;
+  }
+}

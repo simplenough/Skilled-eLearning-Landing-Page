@@ -2,7 +2,9 @@
 
 @media (min-width: 768px) {
   .header {
+    max-width: 1110px;
     margin-top: 24px;
+    margin: 24px auto 0 auto;
   }
 
   .header-logo {
@@ -14,8 +16,13 @@
   }
 
   .hero {
+    max-width: 1110px;
     height: 569px;
+
+    margin: 0 auto;
+
     flex-direction: row;
+    justify-content: space-between;
   }
 
   .hero-article {
@@ -50,5 +57,13 @@
 
   .grid-item-heading {
     margin-top: 56px;
+  }
+
+  .footer-logo {
+    margin-left: 40px;
+  }
+
+  .footer-button {
+    margin-right: 40px;
   }
 }
