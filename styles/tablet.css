@@ -1,9 +1,11 @@
 @import url(./index.css);
 
 @media (min-width: 768px) {
-  .header {
+  main {
     max-width: 1110px;
-    margin-top: 24px;
+  }
+
+  .header {
     margin: 24px auto 0 auto;
   }
 
@@ -16,7 +18,6 @@
   }
 
   .hero {
-    max-width: 1110px;
     height: 569px;
 
     margin: 0 auto;
