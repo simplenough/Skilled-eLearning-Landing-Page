@@ -1,11 +1,8 @@
 @import url(./index.css);
 
 @media (min-width: 768px) {
-  main {
-    max-width: 1110px;
-  }
-
   .header {
+    max-width: 1110px;
     margin: 24px auto 0 auto;
   }
 
@@ -32,14 +29,13 @@
   }
 
   .hero-img-container {
-    width: 500px;
-    height: 750px;
+    width: 379px;
+    height: 580px;
 
-    margin-top: -150px;
+    margin-top: 0;
 
-    background-image: url(../assets/image-hero-tablet.png);
-
-    background-position: left top;
+    background-image: url(../assets/hero-tablet.svg);
+    background-repeat: no-repeat;
   }
 
   .grid {
