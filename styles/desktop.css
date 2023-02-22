@@ -10,19 +10,24 @@
     margin-right: 0;
   }
 
+  .hero {
+    height: 757px;
+  }
+
   .hero-article {
     margin-left: 0;
   }
 
   .hero-img-container {
-    width: 800px;
+    width: 700px;
     height: 900px;
 
-    margin-top: -150px;
+    margin-left: 150px;
+  }
 
-    background-image: url(../assets/hero-desktop.svg);
-
-    background-position: left top;
+  .hero-img-desktop {
+    width: 900px;
+    height: 846px;
   }
 
   .grid {

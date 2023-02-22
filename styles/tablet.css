@@ -15,7 +15,8 @@
   }
 
   .hero {
-    height: 569px;
+    max-width: 1110px;
+    height: 550px;
 
     margin: 0 auto;
 
@@ -24,18 +25,29 @@
   }
 
   .hero-article {
-    margin-left: 39px;
-    margin-top: -50px;
+    margin: -50px 0 0 39px;
+  }
+
+  .hero-img-mobile {
+    display: none;
   }
 
   .hero-img-container {
-    width: 379px;
-    height: 580px;
+    width: 360px;
+    height: 569px;
 
     margin-top: 0;
 
-    background-image: url(../assets/hero-tablet.svg);
-    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+
+  .hero-img-desktop {
+    width: 640px;
+    height: 585px;
+
+    display: flex;
+    position: relative;
+    top: -110px;
   }
 
   .grid {
